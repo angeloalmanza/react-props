@@ -3,7 +3,7 @@ import InfoButton from './InfoButton';
 import Tag from './Tags';
 
 const PostCard = ({image, title, content, tags}) => {
-  const imagePath = `/img/${image}`;
+  const imagePath = image ? `/img/${image}` : '/img/torta_paesana.jpeg';
 
     return (
         <div className={style.card}>
