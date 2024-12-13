@@ -1,0 +1,26 @@
+.tag {
+    color: white;
+    padding: .2rem .5rem;
+    border-radius: .25rem;
+    font-size: .8rem;
+}
+
+.html {
+    background-color: green;
+}
+
+.css {
+    background-color: pink;
+}
+
+.js {
+    background-color: red;
+}
+
+.php {
+    background-color: blue;
+}
+
+.default {
+    background-color: grey;
+}
